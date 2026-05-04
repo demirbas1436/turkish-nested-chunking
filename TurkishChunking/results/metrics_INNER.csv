@@ -1,0 +1,7 @@
+,precision,recall,f1-score,support
+B-RELCL,1.0,1.0,1.0,13.0
+I-RELCL,1.0,1.0,1.0,18.0
+_,1.0,1.0,1.0,111.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,1.0,1.0,142.0
+weighted avg,1.0,1.0,1.0,142.0

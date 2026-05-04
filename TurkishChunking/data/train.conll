@@ -1,0 +1,170 @@
+# text = Dün akşam toplantıdan erken çıkan öğrencinin, hocasının önerdiği makaleyi kütüphanede dikkatlice okuduğunu fark ettim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Dün	B-ADVP	_	O
+2	akşam	I-ADVP	_	O
+3	toplantıdan	B-NP	B-RELCL	B-RELCL
+4	erken	I-NP	I-RELCL	I-RELCL
+5	çıkan	I-NP	I-RELCL	I-RELCL
+6	öğrencinin	I-NP	_	O
+7	,	O	_	O
+8	hocasının	B-NP	B-RELCL	B-RELCL
+9	önerdiği	I-NP	I-RELCL	I-RELCL
+10	makaleyi	I-NP	_	O
+11	kütüphanede	B-NP	_	B-COMPCL
+12	dikkatlice	B-ADVP	_	I-COMPCL
+13	okuduğunu	B-VP	_	I-COMPCL
+14	fark	B-VP	_	O
+15	ettim	I-VP	_	O
+16	.	O	_	O
+
+# text = Yarın sabah okuldan geç dönen çocuğun, annesinin pişirdiği yemeği mutfakta iştahla yediğini gördüm.
+1	Yarın	B-ADVP	_	O
+2	sabah	I-ADVP	_	O
+3	okuldan	B-NP	B-RELCL	B-RELCL
+4	geç	I-NP	I-RELCL	I-RELCL
+5	dönen	I-NP	I-RELCL	I-RELCL
+6	çocuğun	I-NP	_	O
+7	,	O	_	O
+8	annesinin	B-NP	B-RELCL	B-RELCL
+9	pişirdiği	I-NP	I-RELCL	I-RELCL
+10	yemeği	I-NP	_	O
+11	mutfakta	B-NP	_	B-COMPCL
+12	iştahla	B-ADVP	_	I-COMPCL
+13	yediğini	B-VP	_	I-COMPCL
+14	gördüm	B-VP	_	O
+15	.	O	_	O
+
+# text = Dün gece kütüphaneden sessizce ayrılan memurun, arkadaşının verdiği kitabı evde merakla okuduğunu anladım.
+1	Dün	B-ADVP	_	O
+2	gece	I-ADVP	_	O
+3	kütüphaneden	B-NP	B-RELCL	B-RELCL
+4	sessizce	I-NP	I-RELCL	I-RELCL
+5	ayrılan	I-NP	I-RELCL	I-RELCL
+6	memurun	I-NP	_	O
+7	,	O	_	O
+8	arkadaşının	B-NP	B-RELCL	B-RELCL
+9	verdiği	I-NP	I-RELCL	I-RELCL
+10	kitabı	I-NP	_	O
+11	evde	B-NP	_	B-COMPCL
+12	merakla	B-ADVP	_	I-COMPCL
+13	okuduğunu	B-VP	_	I-COMPCL
+14	anladım	B-VP	_	O
+15	.	O	_	O
+
+# text = Bugün öğlen çarşıdan hızlıca gelen kadının, komşusunun getirdiği haberi kapıda heyecanla dinlediğini duydum.
+1	Bugün	B-ADVP	_	O
+2	öğlen	I-ADVP	_	O
+3	çarşıdan	B-NP	B-RELCL	B-RELCL
+4	hızlıca	I-NP	I-RELCL	I-RELCL
+5	gelen	I-NP	I-RELCL	I-RELCL
+6	kadının	I-NP	_	O
+7	,	O	_	O
+8	komşusunun	B-NP	B-RELCL	B-RELCL
+9	getirdiği	I-NP	I-RELCL	I-RELCL
+10	haberi	I-NP	_	O
+11	kapıda	B-NP	_	B-COMPCL
+12	heyecanla	B-ADVP	_	I-COMPCL
+13	dinlediğini	B-VP	_	I-COMPCL
+14	duydum	B-VP	_	O
+15	.	O	_	O
+
+# text = Geçen hafta kurstan erken ayrılan gençlerin, öğretmenin anlattığı konuyu sınıfta dikkatle dinlediğini fark ettik.
+1	Geçen	B-ADVP	_	O
+2	hafta	I-ADVP	_	O
+3	kurstan	B-NP	B-RELCL	B-RELCL
+4	erken	I-NP	I-RELCL	I-RELCL
+5	ayrılan	I-NP	I-RELCL	I-RELCL
+6	gençlerin	I-NP	_	O
+7	,	O	_	O
+8	öğretmenin	B-NP	B-RELCL	B-RELCL
+9	anlattığı	I-NP	I-RELCL	I-RELCL
+10	konuyu	I-NP	_	O
+11	sınıfta	B-NP	_	B-COMPCL
+12	dikkatle	B-ADVP	_	I-COMPCL
+13	dinlediğini	B-VP	_	I-COMPCL
+14	fark	B-VP	_	O
+15	ettik	I-VP	_	O
+16	.	O	_	O
+
+# text = Gece boyunca gökyüzünde parlayan yıldızları izledik.
+1	Gece	B-ADVP	_	O
+2	boyunca	I-ADVP	_	O
+3	gökyüzünde	B-NP	_	B-RELCL
+4	parlayan	I-NP	_	I-RELCL
+5	yıldızları	I-NP	_	O
+6	izledik	B-VP	_	O
+7	.	O	_	O
+7	.	O	_	O
+
+# text = Kırmızı elbiseli kadın markete hızlıca girdi.
+1	Kırmızı	B-NP	_	O
+2	elbiseli	I-NP	_	O
+3	kadın	I-NP	_	O
+4	markete	B-NP	_	O
+5	hızlıca	B-ADVP	_	O
+6	girdi	B-VP	_	O
+7	.	O	_	O
+
+# text = Öğretmenin verdiği ödevleri kütüphanede bitirdim.
+1	Öğretmenin	B-NP	B-RELCL	B-RELCL
+2	verdiği	I-NP	I-RELCL	I-RELCL
+3	ödevleri	I-NP	_	O
+4	kütüphanede	B-NP	_	O
+5	bitirdim	B-VP	_	O
+6	.	O	_	O
+
+# text = Sınavı kazanacağını duyunca çok sevindi.
+1	Sınavı	B-NP	_	B-COMPCL
+2	kazanacağını	I-NP	_	I-COMPCL
+3	duyunca	B-ADVP	_	O
+4	çok	B-ADVP	_	O
+5	sevindi	B-VP	_	O
+6	.	O	_	O
+
+# text = Mavi deniz üzerinde beyaz martılar uçuyordu.
+1	Mavi	B-NP	_	O
+2	deniz	I-NP	_	O
+3	üzerinde	I-NP	_	O
+4	beyaz	B-NP	_	O
+5	martılar	I-NP	_	O
+6	uçuyordu	B-VP	_	O
+7	.	O	_	O
+
+# text = Küçük çocuk bahçede neşeyle oyun oynuyor.
+1	Küçük	B-NP	_	O
+2	çocuk	I-NP	_	O
+3	bahçede	B-NP	_	O
+4	neşeyle	B-ADVP	_	O
+5	oyun	B-NP	_	O
+6	oynuyor	B-VP	_	O
+7	.	O	_	O
+
+# text = Arkadaşım bugün bana çok güzel bir hediye getirdi.
+1	Arkadaşım	B-NP	_	O
+2	bugün	B-ADVP	_	O
+3	bana	B-NP	_	O
+4	çok	B-ADVP	_	O
+5	güzel	B-NP	_	O
+6	bir	I-NP	_	O
+7	hediye	I-NP	_	O
+8	getirdi	B-VP	_	O
+9	.	O	_	O
+
+# text = Hızlı koşan çocuk parkta arkadaşını gördü.
+1	Hızlı	B-NP	B-RELCL	B-RELCL
+2	koşan	I-NP	I-RELCL	I-RELCL
+3	çocuk	I-NP	_	O
+4	parkta	B-NP	_	O
+5	arkadaşını	B-NP	_	O
+6	gördü	B-VP	_	O
+7	.	O	_	O
+
+# text = Masadaki kırmızı kalem ve mavi defter var.
+1	Masadaki	B-NP	B-RELCL	B-RELCL
+2	kırmızı	I-NP	I-RELCL	I-RELCL
+3	kalem	I-NP	_	O
+4	ve	O	_	O
+5	mavi	B-NP	_	O
+6	defter	I-NP	_	O
+7	var	B-VP	_	O
+8	.	O	_	O
