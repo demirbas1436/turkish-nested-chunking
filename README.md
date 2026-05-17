@@ -133,7 +133,3 @@ günde           | I-ADVP     | _          | O
 bitirdim        | B-VP       | _          | O
 .               | O          | _          | O
 ```
-
-<div align="center">
-  <i>Doğal Dil İşleme çalışmaları için 💖 ile geliştirilmiştir.</i>
-</div>
