@@ -168,3 +168,97 @@
 6	defter	I-NP	_	O
 7	var	B-VP	_	O
 8	.	O	_	O
+
+# text = Kapıyı çalan kişi, pencereden bakan küçük çocuğa gülümsedi.
+1	Kapıyı	B-NP	B-RELCL	B-RELCL
+2	çalan	I-NP	I-RELCL	I-RELCL
+3	kişi	I-NP	_	O
+4	,	O	_	O
+5	pencereden	B-NP	B-RELCL	B-RELCL
+6	bakan	I-NP	I-RELCL	I-RELCL
+7	küçük	I-NP	_	O
+8	çocuğa	I-NP	_	O
+9	gülümsedi	B-VP	_	O
+10	.	O	_	O
+
+# text = Eski mahallenin dar sokaklarında top oynayan çocuklar çok mutluydu.
+1	Eski	B-NP	_	O
+2	mahallenin	I-NP	_	O
+3	dar	I-NP	_	O
+4	sokaklarında	I-NP	_	O
+5	top	B-NP	B-RELCL	B-RELCL
+6	oynayan	I-NP	I-RELCL	I-RELCL
+7	çocuklar	I-NP	_	O
+8	çok	B-ADVP	_	O
+9	mutluydu	B-VP	_	O
+10	.	O	_	O
+
+# text = Yarın akşam yapılacak olan toplantıya herkes katılacak.
+1	Yarın	B-ADVP	_	O
+2	akşam	I-ADVP	_	O
+3	yapılacak	B-NP	B-RELCL	B-RELCL
+4	olan	I-NP	I-RELCL	I-RELCL
+5	toplantıya	I-NP	_	O
+6	herkes	B-NP	_	O
+7	katılacak	B-VP	_	O
+8	.	O	_	O
+
+# text = Annem marketten taze ekmek ve soğuk süt aldı.
+1	Annem	B-NP	_	O
+2	marketten	B-NP	_	O
+3	taze	B-NP	_	O
+4	ekmek	I-NP	_	O
+5	ve	O	_	O
+6	soğuk	B-NP	_	O
+7	süt	I-NP	_	O
+8	aldı	B-VP	_	O
+9	.	O	_	O
+
+# text = Bahçedeki çiçekleri sulayan yaşlı adam yorulunca dinlendi.
+1	Bahçedeki	B-NP	B-RELCL	B-RELCL
+2	çiçekleri	I-NP	I-RELCL	I-RELCL
+3	sulayan	I-NP	I-RELCL	I-RELCL
+4	yaşlı	I-NP	_	O
+5	adam	I-NP	_	O
+6	yorulunca	B-ADVP	_	O
+7	dinlendi	B-VP	_	O
+8	.	O	_	O
+
+# text = Bugün hava çok güzel olduğu için dışarı çıktık.
+1	Bugün	B-ADVP	_	O
+2	hava	B-NP	_	B-COMPCL
+3	çok	B-ADVP	_	I-COMPCL
+4	güzel	B-NP	_	I-COMPCL
+5	olduğu	B-VP	_	I-COMPCL
+6	için	O	_	O
+7	dışarı	B-ADVP	_	O
+8	çıktık	B-VP	_	O
+9	.	O	_	O
+
+# text = Kütüphaneden aldığım kitabı üç günde bitirdim.
+1	Kütüphaneden	B-NP	B-RELCL	B-RELCL
+2	aldığım	I-NP	I-RELCL	I-RELCL
+3	kitabı	I-NP	_	O
+4	üç	B-ADVP	_	O
+5	günde	I-ADVP	_	O
+6	bitirdim	B-VP	_	O
+7	.	O	_	O
+
+# text = Sabah erkenden kalkıp spor yapan gençleri izledik.
+1	Sabah	B-ADVP	_	O
+2	erkenden	I-ADVP	_	O
+3	kalkıp	B-ADVP	_	O
+4	spor	B-NP	B-RELCL	B-RELCL
+5	yapan	I-NP	I-RELCL	I-RELCL
+6	gençleri	I-NP	_	O
+7	izledik	B-VP	_	O
+8	.	O	_	O
+
+# text = Seninle tiyatroya gitmek istediğimi sana söylemiştim.
+1	Seninle	B-NP	_	O
+2	tiyatroya	B-NP	_	B-COMPCL
+3	gitmek	I-NP	_	I-COMPCL
+4	istediğimi	B-VP	_	I-COMPCL
+5	sana	B-NP	_	O
+6	söylemiştim	B-VP	_	O
+7	.	O	_	O
