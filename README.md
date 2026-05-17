@@ -133,3 +133,10 @@ günde           | I-ADVP     | _          | O
 bitirdim        | B-VP       | _          | O
 .               | O          | _          | O
 ```
+
+## Sonuçlar
+Sonuçlar ve grafikler `results/` klasörü altında oluşturulur:
+- `cm_OUTER.png`: Dış öbek karmaşıklık matrisi.
+- `cm_INNER.png`: İç öbek karmaşıklık matrisi.
+- `cm_CLAUSE.png`: Tümce yapısı karmaşıklık matrisi.
+- `metrics_*.csv`: Performans metrikleri.
